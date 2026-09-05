@@ -27,7 +27,11 @@ go run main.go
 $env:GOOS="windows"; $env:GOARCH="amd64"; go build -o bin/snake.exe main.go
 ```
 
-**MacOS/Linux (x64):**
+**Linux (x64):**
 ```bash
 GOOS=linux GOARCH=amd64 go build -o bin/snake_linux main.go
 ```
+
+**macOS (x64):**
+```bash
+GOOS=darwin GOARCH=amd64 go build -o bin/snake_mac main.go
